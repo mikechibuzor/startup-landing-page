@@ -107,7 +107,7 @@
               <li class="">
                 <a
                   href="#pricing"
-                  class="pl-6 text-gray-500 font-dm-sans block py-2 border-t border-b w-full"
+                  class="pl-6 text-gray-500 ok font-dm-sans block py-2 border-t border-b w-full"
                   >Pricing</a
                 >
               </li>
