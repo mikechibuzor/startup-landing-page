@@ -3,7 +3,7 @@
     <a href="#" class="flex items-center gap-2">
       <div class="icon">
         <svg
-          class="h-9 w-10"
+          class="lg:h-9 h-10 w-10"
           viewBox="0 0 27 37"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +119,7 @@
           </defs>
         </svg>
       </div>
-      <div class="font-bold text-primary-blue text-xl font-sf-font">
+      <div class="font-black text-primary-blue text-lg md:text-xl font-sf-font">
         Startup Landing
       </div>
     </a>

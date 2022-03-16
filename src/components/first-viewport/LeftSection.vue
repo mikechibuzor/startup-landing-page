@@ -1,16 +1,17 @@
 <template>
   <div class="wrapper px-1">
     <!-- news -->
-    <section class="news">
+    <section class="news mt-10 md:mt-0">
       <p
-        class="flex p items-center py-1.5 w-10/12 gap-4 px-2 rounded-full bg-white"
+        class="flex p items-center py-1 md:py-1.5 w-full lg:w-4/5 gap-3 lg:gap-4 px-2 rounded-full bg-white"
       >
         <span
-          class="bg-primary-yellow py-0.5 rounded-full px-2 text-white text-sm font-bold font-dm-sans"
+          class="bg-primary-yellow py-1 lg:py-0.5 rounded-full text-xs px-2 text-white md:text-sm font-bold font-dm-sans"
           >NEWS</span
         >
-        <span class="flex items-center gap-2 text-sm"
-          >we have updated our term &amp; condition policy
+        <span
+          class="flex text-primary-blue items-center gap-2 text-xs md:text-sm mr-4 lg:mr-0"
+          >We have updated our term &amp; condition policy
           <span class="caret">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -34,12 +35,12 @@
     <!-- text -->
     <section class="text mt-4">
       <h1
-        class="font-bold text-primary-blue text-5xl font-dm-sans leading-snug"
+        class="font-bold text-center lg:text-left mt-5 lg:mt-0 text-primary-blue text-3xl md:text-4xl lg:text-5xl font-dm-sans lg:leading-snug"
       >
         Engage your website visitors using support management tools
       </h1>
       <p
-        class="font-dm-sans leading-loose mt-5 w-11/12 custom-breakpoint:w-10/12"
+        class="font-dm-sans text-center lg:text-left text-sm lg:text-base leading-loose lg:leading-loose mt-3 lg:mt-5 w-full lg:w-11/12 custom-breakpoint:w-10/12"
       >
         Explore 50+ integrations that make your day-to-day workflow more
         efficient and familiar. Our extensive developer tools might also strike
@@ -47,14 +48,16 @@
       </p>
     </section>
     <!-- buttons -->
-    <section class="buttons flex items-center gap-5 mt-16">
+    <section
+      class="buttons justify-center lg:justify-start flex items-center gap-3 lg:gap-5 mt-8 lg:mt-16"
+    >
       <button
-        class="font-dm-sans font-bold bg-primary-yellow text-white px-6 btn rounded-md py-3"
+        class="font-dm-sans font-bold bg-primary-yellow text-white px-3 lg:px-6 btn rounded-md py-3"
       >
         Try free trial
       </button>
       <button
-        class="font-dm-sans font-bold bg-white text-primary-blue px-6 shadow-lg rounded-md py-3"
+        class="font-dm-sans font-bold bg-white text-primary-blue px-3 lg:px-6 shadow-lg rounded-md py-3"
       >
         Discover in video
       </button>
@@ -69,7 +72,23 @@ export default {
 </script>
 
 <style scoped>
-section .p {
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+.news p {
+  background-color: white;
+  box-shadow: 0px 2px 8px rgb(67 99 136 / 7%);
+  color: rgba(2, 7, 62, 0.9);
+  border-radius: 50px;
+  padding: 5px 15px 5px 5px;
+}
+.text p {
+  color: #02073e;
+  line-height: 2.62;
+}
+section h1 {
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 768px) {
+  section h1 {
+    line-height: 1.33;
+  }
 }
 </style>

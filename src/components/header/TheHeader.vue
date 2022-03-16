@@ -1,6 +1,6 @@
 <template>
   <div
-    class="wrapper absolute left-0 top-0 right-0 xl:px-32 flex items-center justify-between py-6"
+    class="wrapper absolute left-0 top-0 right-0 px-6 lg:px-28 xl:px-32 flex items-center justify-between py-6"
   >
     <TheLogo />
     <NavBar />
