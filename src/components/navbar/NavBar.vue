@@ -157,6 +157,7 @@ export default {
       isShowNav: false,
     };
   },
+
   methods: {
     toggleShowMenu() {
       document.querySelector("body").classList.toggle("fixed-app");
@@ -186,6 +187,7 @@ export default {
 .slide-in-leave-active {
   animation: slide 0.3s ease-in-out forwards alternate-reverse;
 }
+
 @keyframes slide {
   from {
     transform: translateX(100%);
