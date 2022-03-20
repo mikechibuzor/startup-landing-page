@@ -1,6 +1,6 @@
 <template>
   <div
-    class="wrapper px-2 lg:px-28 xl:px-32 grid lg:grid-cols-2 items-center gap-y-10 gap-x-10 min-h-screen pt-20"
+    class="wrapper px-2 lg:px-28 xl:px-32 md:px-12 grid lg:grid-cols-2 items-center gap-y-10 gap-x-10 min-h-screen pt-20"
   >
     <LeftSection />
     <RightSection />
