@@ -1,9 +1,9 @@
 <template>
   <div class="wrapper px-1">
     <!-- news -->
-    <section class="news mt-10 md:mt-16 lg:mt-0">
+    <section class="news px-4 md:px-0 mt-10 md:mt-16 lg:mt-0">
       <p
-        class="flex p items-center py-1 md:py-1.5 w-full md:w-4/6 md:mx-auto lg:mx-0 lg:w-4/5 gap-3 lg:gap-4 px-2 rounded-full bg-white"
+        class="flex p items-center py-1 md:py-1.5 w-full md:w-4/6 md:mx-auto lg:mx-0 lg:w-full xl:w-4/5 gap-3 lg:gap-4 px-2 rounded-full bg-white"
       >
         <span
           class="bg-primary-yellow py-1 lg:py-0.5 rounded-full text-xs px-2 text-white md:text-sm font-bold font-dm-sans"
@@ -35,7 +35,7 @@
     <!-- text -->
     <section class="text mt-4">
       <h1
-        class="font-bold text-center lg:text-left mt-5 md:mt-2 lg:mt-0 text-primary-blue text-3xl lg:text-5xl font-dm-sans lg:leading-snug"
+        class="font-bold px-10 md:px-0 text-center lg:text-left mt-5 md:mt-2 lg:mt-0 text-primary-blue text-3xl lg:text-4xl xl:text-5xl font-dm-sans lg:leading-snug xl:leading-snug"
       >
         Engage your website visitors using support management tools
       </h1>

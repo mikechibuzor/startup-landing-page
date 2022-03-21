@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper md:px-12 py-16 px-2 lg:px-28 xl:px-32">
+  <div class="wrapper md:px-12 py-16 px-2 xl:px-32">
     <div class="up flex flex-col items-center justify-center">
       <p class="font-medium font-dm-sans text-primary-yellow">
         Ideal solutions for you
@@ -10,12 +10,12 @@
     </div>
     <div class="middle mt-20">
       <div
-        class="features grid grid-cols-2 md:gap-x-0 md:gap-y-7 lg:grid-cols-3 lg:gap-7"
+        class="features grid md:grid-cols-2 md:gap-x-0 gap-y-7 lg:grid-cols-3 lg:gap-7"
       >
         <div
-          class="feature flex flex-col lg:flex-row items-center lg:items-start justify-center lg:justify-start gap-7"
+          class="feature flex flex-col xl:flex-row items-center xl:items-start justify-center xl:justify-start gap-7"
         >
-          <div class="icon">
+          <div class="icon flex items-center justify-center xl:block">
             <svg
               class="custom-breakpoint:h-20 h-16 w-16 custom-breakpoint:w-20"
               viewBox="0 0 70 70"
@@ -39,20 +39,22 @@
               />
             </svg>
           </div>
-          <div class="text px-8 md:px-4 lg:px-0">
+          <div
+            class="text flex items-center justify-center flex-col xl:block px-8 md:px-4 lg:px-0"
+          >
             <h3
-              class="text-lg text-center lg:text-left font-medium font-dm-sans text-primary-blue"
+              class="text-lg text-center xl:text-left font-medium font-dm-sans text-primary-blue"
             >
               For Individuals
             </h3>
-            <p class="font-dm-sans text-center lg:text-left leading-loose mt-2">
+            <p class="font-dm-sans text-center xl:text-left leading-loose mt-2">
               Get your info tests delivered at home collect a sample from the
               your progress tests.
             </p>
           </div>
         </div>
         <div
-          class="feature flex flex-col lg:flex-row items-center lg:items-start justify-center lg:justify-start gap-7"
+          class="feature flex flex-col xl:flex-row items-center xl:items-start justify-center xl:justify-start gap-7"
         >
           <div class="icon">
             <svg
@@ -100,22 +102,24 @@
               />
             </svg>
           </div>
-          <div class="text px-8 lg:px-0">
+          <div
+            class="text flex items-center justify-center flex-col xl:block px-8 lg:px-0"
+          >
             <h3
-              class="text-lg text-center lg:text-left font-medium font-dm-sans text-primary-blue"
+              class="text-lg text-center xl:text-left font-medium font-dm-sans text-primary-blue"
             >
               For Team
             </h3>
-            <p class="font-dm-sans text-center lg:text-left leading-loose mt-2">
+            <p class="font-dm-sans text-center xl:text-left leading-loose mt-2">
               Get your info tests delivered at home collect a sample from the
               your progress tests.
             </p>
           </div>
         </div>
         <div
-          class="feature flex flex-col lg:flex-row items-center lg:items-start justify-center lg:justify-start gap-7"
+          class="feature flex flex-col xl:flex-row items-center xl:items-start justify-center xl:justify-start gap-7"
         >
-          <div class="icon">
+          <div class="icon flex items-center justify-center xl:block">
             <svg
               class="custom-breakpoint:h-20 h-16 w-16 custom-breakpoint:w-20"
               viewBox="0 0 70 70"
@@ -145,13 +149,15 @@
               />
             </svg>
           </div>
-          <div class="text px-8 lg:px-0">
+          <div class="text text-center xl:text-left px-8 lg:px-0">
             <h3
-              class="text-lg text-center lg:text-left font-medium font-dm-sans text-primary-blue"
+              class="text-lg text-center xl:text-left font-medium font-dm-sans text-primary-blue"
             >
               For Organization
             </h3>
-            <p class="font-dm-sans text-center lg:text-left leading-loose mt-2">
+            <p
+              class="font-dm-sans flex items-center justify-center flex-col xl:block text-center xl:text-left leading-loose mt-2"
+            >
               Get your info tests delivered at home collect a sample from the
               your progress tests.
             </p>
@@ -160,18 +166,22 @@
       </div>
     </div>
     <div
-      class="bottom mt-36 w-5/6 lg:w-2/4 mx-auto flex items-center justify-center flex-col"
+      class="bottom mt-12 md:mt-36 w-5/6 lg:w-3/5 xl:w-2/4 mx-auto flex items-center justify-center flex-col"
     >
       <h2
-        class="font-bold text-2xl leading-loose text-primary-blue font-dm-sans mt-4"
+        class="font-bold text-xl md:text-2xl text-center leading-loose text-primary-blue font-dm-sans mt-4"
       >
         Introducing video calling support
       </h2>
-      <p class="leading-loose text-center mt-3">
+      <p
+        class="leading-loose text-center font-dm-sans text-sm md:text-base mt-3"
+      >
         Every email, web page, and social media post makes an impression on your
         customers. With our software you can be confident it's impression.
       </p>
-      <p class="text-blue-500 mt-10 font-medium flex items-center gap-x-2">
+      <p
+        class="text-blue-500 text-sm md:text-base mt-10 font-medium flex items-center gap-x-2"
+      >
         Explore Details
         <span class="caret">
           <svg

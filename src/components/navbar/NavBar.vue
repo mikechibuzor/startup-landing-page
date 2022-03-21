@@ -2,7 +2,7 @@
   <div class="wrapper flex items-center">
     <!-- nav for desktop and large screens-->
     <nav class="hidden lg:block">
-      <ul class="flex gap-8">
+      <ul class="flex ml-5 xl:ml-0 lg:gap-4 xl:gap-8">
         <li>
           <a href="#home" class="font-dm-sans">Home</a>
         </li>
@@ -58,7 +58,7 @@
     <transition name="slide-in">
       <nav
         v-if="isShowNav"
-        class="lg:hidden transform flex flex-col justify-between bg-white pt-16 h-screen w-11/12 right-0 fixed top-0 bottom-0"
+        class="lg:hidden transform flex flex-col justify-between bg-white pt-16 h-screen w-11/12 md:w-2/5 right-0 fixed top-0 bottom-0"
       >
         <div class="up">
           <!-- logo and close icon -->

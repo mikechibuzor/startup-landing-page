@@ -1,7 +1,7 @@
 <template>
   <header
     :class="compFixedHeader"
-    class="wrapper transition all duration-500 ease-linear absolute left-0 top-0 right-0 px-6 md:px-12 lg:px-28 xl:px-32 flex items-center justify-between py-6"
+    class="wrapper transition all duration-500 ease-linear absolute left-0 top-0 right-0 px-6 md:px-12 xl:px-32 flex items-center justify-between py-6"
   >
     <TheLogo />
     <NavBar />

@@ -3,6 +3,7 @@
     <TheHeader />
     <FirstViewport />
     <SecondViewport />
+    <VideoCall />
     <div class="another h-screen"></div>
   </div>
 </template>
@@ -16,6 +17,7 @@ export default {
       import("./components/first-viewport/FirstViewport.vue"),
     SecondViewport: () =>
       import("./components/second-viewport/SecondViewport.vue"),
+    VideoCall: () => import("./components/video-call/VideoCall.vue"),
   },
 };
 </script>

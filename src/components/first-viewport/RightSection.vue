@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper h-height60 xl:h-full">
     <img
       src="../../assets/images/right-bg.png"
       class="object-contain h-full w-full"
