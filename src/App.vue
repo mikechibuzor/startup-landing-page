@@ -4,6 +4,7 @@
     <FirstViewport />
     <SecondViewport />
     <VideoCall />
+    <FourthViewport />
     <div class="another h-screen"></div>
   </div>
 </template>
@@ -18,8 +19,14 @@ export default {
     SecondViewport: () =>
       import("./components/second-viewport/SecondViewport.vue"),
     VideoCall: () => import("./components/video-call/VideoCall.vue"),
+    FourthViewport: () =>
+      import("./components/fourth-viewport/FourthViewport.vue"),
   },
 };
 </script>
 
-<style></style>
+<style>
+body {
+  font-family: "DM Sans", sans-serif;
+}
+</style>
