@@ -115,7 +115,7 @@
     </div>
     <!-- I made this section for Ipad and mobile devices -->
     <div
-      class="pricing-container lg:hidden grid gap-x-5 gap-y-0 md:grid-cols-2"
+      class="pricing-container px-4 lg:hidden grid gap-x-5 gap-y-0 md:grid-cols-2"
     >
       <div
         v-for="price in pricing"
@@ -123,7 +123,7 @@
         class="pricing-card border rounded-xl mt-20"
       >
         <div class="title-price pt-5 flex items-center justify-center flex-col">
-          <h4 class="text-gray-400 lg:mb-4 xl:mb-7 font-medium font-dm-sans">
+          <h4 class="text-gray-400 font-medium font-dm-sans">
             {{ price.title }}
           </h4>
           <h2 class="text-3xl font-medium">{{ price.price }}/per mo.</h2>

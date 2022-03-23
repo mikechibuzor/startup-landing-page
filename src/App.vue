@@ -5,7 +5,7 @@
     <SecondViewport />
     <VideoCall />
     <FourthViewport />
-    <div class="another h-screen"></div>
+    <OurClients />
   </div>
 </template>
 
@@ -21,6 +21,7 @@ export default {
     VideoCall: () => import("./components/video-call/VideoCall.vue"),
     FourthViewport: () =>
       import("./components/fourth-viewport/FourthViewport.vue"),
+    OurClients: () => import("./components/our-clients/OurClients.vue"),
   },
 };
 </script>
