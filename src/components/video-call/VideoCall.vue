@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper md:px-12 px-2 xl:px-32">
-    <div class="vid-wrapper relative w-5/6 mx-auto">
+  <div id="feature" class="wrapper viewport md:px-12 px-2 xl:px-32">
+    <div class="vid-wrapper z-20 relative w-5/6 mx-auto">
       <!-- dots ontop -->
       <div
         class="dots flex items-center gap-2 py-1 md:py-2.5 xl:py-3.5 px-3 w-11/12 mx-auto rounded-tr rounded-tl border"
@@ -107,15 +107,20 @@
       >
         <p>Your personal support assistance</p>
       </div>
-      <div class="">
-        <PatternDeco class="pattern-one absolute -bottom-5 left-5" />
+      <div class="z-10">
+        <PatternDeco class="pattern-one absolute z-10 -bottom-2 left-32" />
+      </div>
+      <div class="z-10">
+        <PatternDeco class="pattern-two absolute z-10 top-20 -right-10" />
       </div>
     </div>
   </div>
 </template>
 <script>
 export default {
-  PatternDeco: () => import("./pattern/PatternDeco.vue"),
+  components: {
+    PatternDeco: () => import("./pattern/PatternDeco.vue"),
+  },
 };
 </script>
 <style scoped>

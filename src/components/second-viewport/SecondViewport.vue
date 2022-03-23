@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper md:px-12 py-16 px-2 xl:px-32">
+  <div id="services" class="wrapper viewport md:px-12 py-16 px-2 xl:px-32">
     <div class="up flex flex-col items-center justify-center">
       <p class="font-medium font-dm-sans text-primary-yellow">
         Ideal solutions for you

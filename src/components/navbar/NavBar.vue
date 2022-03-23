@@ -4,25 +4,25 @@
     <nav class="hidden lg:block">
       <ul class="flex ml-5 xl:ml-0 lg:gap-4 xl:gap-8">
         <li>
-          <a href="#home" class="font-dm-sans">Home</a>
+          <a href="#home" class="font-dm-sans active home">Home</a>
         </li>
         <li>
-          <a href="#services" class="font-dm-sans">Services</a>
+          <a href="#services" class="font-dm-sans services">Services</a>
         </li>
         <li>
-          <a href="#features" class="font-dm-sans">Features</a>
+          <a href="#feature" class="font-dm-sans feature">Feature</a>
         </li>
         <li>
-          <a href="#pricing" class="font-dm-sans">Pricing</a>
+          <a href="#pricing" class="font-dm-sans pricing">Pricing</a>
         </li>
         <li>
-          <a href="#clients" class="font-dm-sans">Our Clients</a>
+          <a href="#clients" class="font-dm-sans clients">Our Clients</a>
         </li>
         <li>
-          <a href="#blog" class="font-dm-sans">Blog</a>
+          <a href="#blog" class="font-dm-sans blog">Blog</a>
         </li>
         <li>
-          <a href="#faq" class="font-dm-sans">Faq</a>
+          <a href="#faq" class="font-dm-sans faq">Faq</a>
         </li>
       </ul>
     </nav>
@@ -85,49 +85,49 @@
             <li class="">
               <a
                 href="#home"
-                class="pl-6 text-gray-500 font-dm-sans block py-2 border-t border-b w-full"
+                class="pl-6 home text-gray-500 font-dm-sans block py-2 border-t border-b w-full"
                 >Home</a
               >
             </li>
             <li class="">
               <a
                 href="#services"
-                class="pl-6 text-gray-500 font-dm-sans block py-2 border-t border-b w-full"
+                class="pl-6 services text-gray-500 font-dm-sans block py-2 border-t border-b w-full"
                 >Services</a
               >
             </li>
             <li class="">
               <a
                 href="#feature"
-                class="pl-6 text-gray-500 font-dm-sans block py-2 border-t border-b w-full"
+                class="pl-6 feature text-gray-500 font-dm-sans block py-2 border-t border-b w-full"
                 >Feature</a
               >
             </li>
             <li class="">
               <a
                 href="#pricing"
-                class="pl-6 text-gray-500 ok font-dm-sans block py-2 border-t border-b w-full"
+                class="pl-6 pricing text-gray-500 ok font-dm-sans block py-2 border-t border-b w-full"
                 >Pricing</a
               >
             </li>
             <li class="">
               <a
-                href="#ourclients"
-                class="pl-6 text-gray-500 font-dm-sans block py-2 border-t border-b w-full"
+                href="#clients"
+                class="pl-6 clients text-gray-500 font-dm-sans block py-2 border-t border-b w-full"
                 >Our Clients</a
               >
             </li>
             <li class="">
               <a
                 href="#blog"
-                class="pl-6 text-gray-500 font-dm-sans block py-2 border-t border-b w-full"
+                class="pl-6 blog text-gray-500 font-dm-sans block py-2 border-t border-b w-full"
                 >Blog</a
               >
             </li>
             <li class="">
               <a
                 href="#faq"
-                class="pl-6 text-gray-500 font-dm-sans block py-2 border-t border-b w-full"
+                class="pl-6 faq text-gray-500 font-dm-sans block py-2 border-t border-b w-full"
                 >Faq</a
               >
             </li>
@@ -165,11 +165,39 @@ export default {
 
       this.isShowNav = !this.isShowNav;
     },
+    activeLinkOnScroll() {
+      let activeLink = "home";
+      const viewports = document.querySelectorAll(".viewport");
+      const navLinks = document.querySelectorAll("li a");
+
+      [...viewports].forEach((viewport) => {
+        const viewportTop = viewport.offsetTop;
+        const viewportHeight = viewport.clientHeight;
+        if (pageYOffset >= viewportTop - viewportHeight / 3) {
+          activeLink = viewport.getAttribute("id");
+        }
+      });
+
+      navLinks.forEach((link) => {
+        link.classList.remove("active");
+        if (link.classList.contains(activeLink)) {
+          link.classList.add("active");
+        }
+      });
+    },
+  },
+  mounted() {
+    window.addEventListener("scroll", this.activeLinkOnScroll);
   },
 };
 </script>
 
 <style>
+/* active link */
+.active {
+  color: rgb(250, 191, 98);
+  transition: 0.3s ease color;
+}
 /* hamburger overlay */
 .overlay {
   position: fixed;

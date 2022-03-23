@@ -35,7 +35,7 @@
     <!-- text -->
     <section class="text mt-4">
       <h1
-        class="font-bold px-10 md:px-0 text-center lg:text-left mt-5 md:mt-2 lg:mt-0 text-primary-blue text-3xl lg:text-4xl xl:text-5xl font-dm-sans lg:leading-snug xl:leading-snug"
+        class="font-bold px-3 md:px-0 text-center lg:text-left mt-5 md:mt-2 lg:mt-0 text-primary-blue text-3xl lg:text-4xl xl:text-5xl font-dm-sans lg:leading-snug xl:leading-snug"
       >
         Engage your website visitors using support management tools
       </h1>
