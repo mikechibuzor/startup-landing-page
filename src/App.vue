@@ -6,6 +6,8 @@
     <VideoCall />
     <FourthViewport />
     <OurClients />
+    <SixthViewport />
+    <SeventhViewport />
   </div>
 </template>
 
@@ -22,6 +24,10 @@ export default {
     FourthViewport: () =>
       import("./components/fourth-viewport/FourthViewport.vue"),
     OurClients: () => import("./components/our-clients/OurClients.vue"),
+    SixthViewport: () =>
+      import("./components/sixth-viewport/SixthViewport.vue"),
+    SeventhViewport: () =>
+      import("./components/seventh-viewport/SeventhViewport.vue"),
   },
 };
 </script>
