@@ -49,6 +49,6 @@ export default {};
 .down {
   background-image: url("../../assets/images/clients.png");
   background-position: cover;
-  background-size: cover;
+  background-size: contain;
 }
 </style>

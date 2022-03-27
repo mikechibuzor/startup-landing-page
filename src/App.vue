@@ -8,6 +8,7 @@
     <OurClients />
     <SixthViewport />
     <SeventhViewport />
+    <EightViewport />
   </div>
 </template>
 
@@ -28,6 +29,8 @@ export default {
       import("./components/sixth-viewport/SixthViewport.vue"),
     SeventhViewport: () =>
       import("./components/seventh-viewport/SeventhViewport.vue"),
+    EightViewport: () =>
+      import("./components/eight-viewport/EightViewport.vue"),
   },
 };
 </script>
