@@ -20,17 +20,17 @@
         class="team-image h-height20 md:h-height30 lg:h-height60 xl:h-height90 custom-breakpoint:h-height60 w-11/12 mx-auto"
       ></div>
       <div
-        class="do grid gap-y-8 md:grid-cols-2 bg-primary-blue p-10 rounded-md"
+        class="do grid gap-y-8 md:grid-cols-2 bg-primary-blue p-12 rounded-md"
       >
         <h1
-          class="text-white font-medium text-center lg:text-left text-lg md:text-3xl lg:text-4xl custom-breakpoint:5xl leading-snug"
+          class="text-white font-medium text-center md:text-left text-lg md:text-2xl lg:text-4xl custom-breakpoint:5xl lg:leading-snug"
         >
           Do you have any <br class="hidden lg:block" />
           question? Feel free to <br class="hidden lg:block" />contact us
         </h1>
         <div class="button flex items-center justify-center lg:justify-end">
           <button
-            class="px-8 py-3 font-medium text-primary-blue bg-white rounded shadow-sm"
+            class="px-8 py-4 font-medium text-primary-blue bg-white rounded shadow-sm"
           >
             CONTACT US NOW
           </button>

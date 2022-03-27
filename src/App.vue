@@ -9,6 +9,7 @@
     <SixthViewport />
     <SeventhViewport />
     <EightViewport />
+    <TheFooter />
   </div>
 </template>
 
@@ -31,6 +32,7 @@ export default {
       import("./components/seventh-viewport/SeventhViewport.vue"),
     EightViewport: () =>
       import("./components/eight-viewport/EightViewport.vue"),
+    TheFooter: () => import("./components/footer/TheFooter.vue"),
   },
 };
 </script>
