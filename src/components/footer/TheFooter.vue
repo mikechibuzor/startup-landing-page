@@ -1,17 +1,17 @@
 <template>
   <div
     id="footer"
-    class="wrapper flex gap-4 xl:gap-12 relative viewport md:px-12 pb-36 mb-10 pt-5 px-2 xl:px-32"
+    class="wrapper flex gap-4 xl:gap-12 relative viewport md:px-12 mb-10 pt-5 px-2 xl:px-32"
   >
     <div
-      class="logo-and-others absolute items-center lg:items-start w-full bottom-0 left-0 md:left-8 flex-col md:flex-row right-0 lg:static flex lg:flex-col gap-y-4"
+      class="logo-and-others absolute items-center lg:items-start w-full lg:w-auto bottom-0 left-0 md:left-8 flex-col md:flex-row right-0 lg:static flex lg:flex-col gap-y-4"
     >
       <TheLogo />
       <p class="font-dm-sans text-primary-blue order-3 lg:order-2 ml-5 lg:ml-0">
         Terms of use | Privacy
       </p>
       <p
-        class="font-dm-sans text-gray-400 text-sm order-2 lg:order-3 lg:order-2 ml-5 lg:ml-0"
+        class="font-dm-sans text-gray-400 text-sm order-2 lg:order-3 ml-5 lg:ml-0"
       >
         Copyright by 2022 RedQ, <br class="hidden lg:block" />Inc
       </p>
