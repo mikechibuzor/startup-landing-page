@@ -24,8 +24,13 @@ To create a pixel perfect clone of [this](https://startup-support-system.vercel.
 
 ### Screenshot
 
+#### Desktop Home view
+
 ![Home on Desktop](./screenshot/start-up-home.png)
-![Full on mobile](./screenshot/start-up.png)
+
+#### Mobile Home View
+
+![Mobie](./screenshot/start-up-mobile.png)
 
 ### Links
 
