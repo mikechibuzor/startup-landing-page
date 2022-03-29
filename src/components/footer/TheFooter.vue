@@ -1,7 +1,7 @@
 <template>
   <div
     id="footer"
-    class="wrapper flex gap-4 xl:gap-12 relative viewport md:px-12 mb-10 pt-5 px-2 xl:px-32"
+    class="wrapper flex gap-4 xl:gap-12 relative viewport pb-40 lg:pb-0 md:px-12 mb-5 pt-5 px-8 xl:px-32"
   >
     <div
       class="logo-and-others absolute items-center lg:items-start w-full lg:w-auto bottom-0 left-0 md:left-8 flex-col md:flex-row right-0 lg:static flex lg:flex-col gap-y-4"
@@ -124,7 +124,7 @@
           Connect
         </h4>
         <ul>
-          <li class="py-1.5">
+          <li class="py-2">
             <a
               href="#"
               class="font-dm-sans text-gray-500 text-sm lg:text-base flex items-center"
@@ -137,7 +137,7 @@
             >
           </li>
 
-          <li class="py-1.5">
+          <li class="py-2">
             <a
               href="#"
               class="font-dm-sans text-gray-500 text-sm lg:text-base flex items-center"
@@ -149,7 +149,7 @@
               ><span>Twitter</span></a
             >
           </li>
-          <li class="py-1.5">
+          <li class="py-2">
             <a
               href="#"
               class="font-dm-sans text-gray-500 text-sm lg:text-base flex items-center"
@@ -161,7 +161,7 @@
               ><span>Dribble</span></a
             >
           </li>
-          <li class="py-1.5">
+          <li class="py-2">
             <a
               href="#"
               class="font-dm-sans text-gray-500 text-sm lg:text-base flex items-center"

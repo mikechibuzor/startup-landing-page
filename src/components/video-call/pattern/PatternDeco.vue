@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <svg
-      class="h-32 w-32"
+      :class="size"
       viewBox="0 0 191 192"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -843,7 +843,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    size: {
+      type: String,
+      default: "h-32 w-32",
+    },
+  },
+};
 </script>
 
 <style></style>

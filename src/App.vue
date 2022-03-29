@@ -41,4 +41,10 @@ export default {
 body {
   font-family: "DM Sans", sans-serif;
 }
+@media screen and (min-width: 1441px) {
+  .wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
 </style>

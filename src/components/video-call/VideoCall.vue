@@ -1,6 +1,6 @@
 <template>
   <div id="feature" class="wrapper viewport md:px-12 px-2 xl:px-32">
-    <div class="vid-wrapper z-20 relative w-5/6 mx-auto">
+    <div class="vid-wrapper z-30 relative w-5/6 mx-auto">
       <!-- dots ontop -->
       <div
         class="dots flex items-center gap-2 py-1 md:py-2.5 xl:py-3.5 px-3 w-11/12 mx-auto rounded-tr rounded-tl border"
@@ -107,11 +107,11 @@
       >
         <p>Your personal support assistance</p>
       </div>
-      <div class="z-10">
-        <PatternDeco class="pattern-one absolute z-10 -bottom-2 left-32" />
+      <div class="-z-10">
+        <PatternDeco class="pattern-one absolute -z-10 -bottom-2 left-32" />
       </div>
-      <div class="z-10">
-        <PatternDeco class="pattern-two absolute z-10 top-20 -right-10" />
+      <div class="-z-10">
+        <PatternDeco class="pattern-two absolute -z-10 top-20 -right-10" />
       </div>
     </div>
   </div>
@@ -164,10 +164,29 @@ export default {
     width: 93%;
   }
   .chat-one {
-    left: -2rem;
+    padding: 0.7rem;
+    width: 6rem;
+    font-size: 7px;
+    border-top-right-radius: 0.55rem;
+    border-top-left-radius: 0.55rem;
+    border-bottom-left-radius: 0.55rem;
+    line-height: normal;
+    left: -0.95rem;
+  }
+  .pattern-one,
+  .pattern-two {
+    display: none;
   }
   .chat-two {
     bottom: 2rem;
+    padding: 0.7rem;
+    width: 6rem;
+    font-size: 7px;
+    border-top-right-radius: 0.55rem;
+    border-top-left-radius: 0.55rem;
+    border-bottom-right-radius: 0.55rem;
+    line-height: normal;
+    right: -0.5rem;
   }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div id="pricing" class="wrapper viewport md:px-12 py-16 px-2 xl:px-32">
+  <div id="pricing" class="wrapper viewport md:px-12 py-20 mt-10 px-2 xl:px-32">
     <!-- up -->
     <div class="up flex flex-col items-center justify-center">
       <p class="font-medium font-dm-sans text-primary-yellow">
@@ -11,14 +11,12 @@
     </div>
     <!-- down -->
     <!-- I made this section for desktop and large screens -->
-    <div
-      class="hidden pricing-container lg:h-height70 custom-breakpoint:h-height70 xl:h-height90 lg:grid grid-cols-5 gap-2 mt-10"
-    >
+    <div class="hidden pricing-container lg:grid grid-cols-5 gap-2 mt-10">
       <div class="pricing-bar rounded-lg">
         <div
           class="title-price opacity-0 lg:pt-8 xl:pt-10 flex items-center justify-center flex-col"
         >
-          <h4 class="text-gray-400 lg:mb-4 xl:mb-7 font-medium font-dm-sans">
+          <h4 class="text-gray-300 lg:mb-4 xl:mb-7 font-medium font-dm-sans">
             Starter Pack
           </h4>
           <h2 class="text-3xl font-medium">$18.99/per mo</h2>
