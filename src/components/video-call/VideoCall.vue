@@ -18,10 +18,10 @@
       </div>
       <!-- video call screen -->
       <div
-        class="video-call flex items-end justify-center w-full custom-breakpoint:h-height60 lg:h-height60 xl:h-height70 h-height20 md:h-height40"
+        class="video-call flex items-end justify-center w-full custom-breakpoint:h-height60 lg:h-height60 xl:h-height70 h-height30 md:h-height40"
       >
         <!-- video call icons -->
-        <div class="icons flex gap-2 lg:gap-4 mb-4 md:mb-12 lg:mb-16 xl:mb-12">
+        <div class="icons flex gap-2 lg:gap-4 mb-8 md:mb-12 lg:mb-16 xl:mb-12">
           <span class="vid-call">
             <svg
               class="lg:h-12 md:h-8 md:w-8 h-4 w-4 lg:w-12"
@@ -178,7 +178,7 @@ export default {
     display: none;
   }
   .chat-two {
-    bottom: 2rem;
+    bottom: 4rem;
     padding: 0.7rem;
     width: 6rem;
     font-size: 7px;

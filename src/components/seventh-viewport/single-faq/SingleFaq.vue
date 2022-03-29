@@ -1,10 +1,10 @@
 <template>
   <div class="px-4 md:px-0 single-faq">
-    <h2 class="g:ltext-lg font-medium text-primary-blue mb-6">
+    <h2 class="lg:text-lg font-medium text-primary-blue mb-6">
       {{ faqObject.question }}
     </h2>
     <p
-      class="leading-loose text-sm lg:text-base w-11/12 lg:w-10/12 border-b-2 border-black pb-10"
+      class="leading-relaxed text-sm lg:text-base lg:leading-relaxed text-justify w-11/12 lg:w-10/12 border-b-2 border-black pb-10"
     >
       {{ faqObject.answer }}
     </p>
@@ -24,4 +24,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+p {
+  line-height: 2;
+}
+</style>

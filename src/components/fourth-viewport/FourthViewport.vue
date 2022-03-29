@@ -2,10 +2,12 @@
   <div id="pricing" class="wrapper viewport md:px-12 py-20 mt-10 px-2 xl:px-32">
     <!-- up -->
     <div class="up flex flex-col items-center justify-center">
-      <p class="font-medium font-dm-sans text-primary-yellow">
+      <p class="font-medium font-dm-sans text-center text-primary-yellow">
         Deal for your business
       </p>
-      <h2 class="font-bold text-2xl text-primary-blue font-dm-sans mt-4">
+      <h2
+        class="font-bold text-2xl text-center text-primary-blue font-dm-sans mt-4"
+      >
         Meet our pricing plan that suit you
       </h2>
     </div>
