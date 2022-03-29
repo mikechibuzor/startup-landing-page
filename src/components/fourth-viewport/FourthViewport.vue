@@ -257,7 +257,7 @@ export default {
 }
 .title-price h2 span.price {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 34px;
   text-align: center;
   letter-spacing: -0.55px;
@@ -267,17 +267,23 @@ export default {
     font-size: 20px;
   }
 }
-.title-price h4,
-.down p {
+.title-price h4 {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
-  color: #0f2137;
+  color: #94979b;
+}
+.down p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #94979b;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .title-price h4,
   .down p {
     font-size: 12px;
