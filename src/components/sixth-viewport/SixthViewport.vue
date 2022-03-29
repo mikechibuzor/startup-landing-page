@@ -1,5 +1,5 @@
 <template>
-  <div id="blog" class="wrapper viewport md:px-12 py-16 px-2 xl:px-32">
+  <div id="blog" class="wrapper viewport md:px-12 py-16 px-8 xl:px-32">
     <div class="up flex flex-col items-center justify-center">
       <p class="font-medium font-dm-sans text-primary-yellow">
         Latest newsfeed
@@ -258,6 +258,17 @@ img {
       "course-1";
     min-height: 100vh;
     padding-bottom: 2rem;
+  }
+  .course-4,
+  .course-3 {
+    height: 40vh;
+  }
+  .course-2 {
+    height: 65vh;
+  }
+  .course-1 {
+    height: 50vh;
+    margin-top: 8rem;
   }
   .image {
     border-radius: 0.2rem;
