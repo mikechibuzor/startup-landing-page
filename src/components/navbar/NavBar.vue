@@ -2,27 +2,27 @@
   <div class="wrapper flex items-center">
     <!-- nav for desktop and large screens-->
     <nav class="hidden lg:block">
-      <ul class="flex ml-5 xl:ml-0 lg:gap-4 xl:gap-8">
+      <ul class="flex ml-5 xl:ml-0 gap-4 xl:gap-8 font-dm-sans">
         <li>
-          <a href="#home" class="font-dm-sans active home">Home</a>
+          <a href="#home" class="active home">Home</a>
         </li>
         <li>
-          <a href="#services" class="font-dm-sans services">Services</a>
+          <a href="#services" class="services">Services</a>
         </li>
         <li>
-          <a href="#feature" class="font-dm-sans feature">Feature</a>
+          <a href="#feature" class="feature">Feature</a>
         </li>
         <li>
-          <a href="#pricing" class="font-dm-sans pricing">Pricing</a>
+          <a href="#pricing" class="pricing">Pricing</a>
         </li>
         <li>
-          <a href="#clients" class="font-dm-sans clients">Our Clients</a>
+          <a href="#clients" class="clients">Our Clients</a>
         </li>
         <li>
-          <a href="#blog" class="font-dm-sans blog">Blog</a>
+          <a href="#blog" class="blog">Blog</a>
         </li>
         <li>
-          <a href="#faq" class="font-dm-sans faq">Faq</a>
+          <a href="#faq" class="faq">Faq</a>
         </li>
       </ul>
     </nav>

@@ -11,7 +11,7 @@
     </div>
     <!-- down -->
     <!-- I made this section for desktop and large screens -->
-    <div class="hidden pricing-container lg:grid grid-cols-5 gap-2 mt-10">
+    <div class="hidden pricing-container lg:grid grid-cols-5 gap-2 mt-20">
       <div class="pricing-bar rounded-lg">
         <div
           class="title-price opacity-0 lg:pt-8 xl:pt-10 flex items-center justify-center flex-col"
@@ -54,15 +54,25 @@
       <div
         v-for="price in pricing"
         :key="price.id"
-        class="pricing-bar border rounded-lg"
+        class="pricing-bar border relative rounded-lg"
+        :class="{ 'recommended-price': price.id === 2 }"
       >
+        <p
+          v-if="price.id === 2"
+          class="bg-blue-400 absolute -top-6 left-0 right-0 px-4 py-1 text-sm rounded-tr-lg rounded-tl-lg font-medium text-center text-white font-dm-sans"
+        >
+          RECOMMENDED
+        </p>
         <div
           class="title-price lg:pt-8 xl:pt-10 flex items-center justify-center flex-col"
         >
-          <h4 class="text-gray-400 lg:mb-4 xl:mb-7 font-medium font-dm-sans">
+          <h4 class="text-gray-300 lg:mb-4 xl:mb-7 font-medium font-dm-sans">
             {{ price.title }}
           </h4>
-          <h2 class="text-3xl font-medium">{{ price.price }}/per mo.</h2>
+          <h2 class="text-xl font-medium font-dm-sans">
+            <span class="price">{{ price.price }}</span
+            >/per mo.
+          </h2>
         </div>
         <div class="pricing-coverage">
           <ul class="lg:mt-8 xl:mt-14">
@@ -121,7 +131,7 @@
         class="pricing-card border rounded-xl mt-20"
       >
         <div class="title-price pt-5 flex items-center justify-center flex-col">
-          <h4 class="text-gray-400 font-medium font-dm-sans">
+          <h4 class="text-gray-300 font-medium font-dm-sans">
             {{ price.title }}
           </h4>
           <h2 class="text-3xl font-medium">{{ price.price }}/per mo.</h2>
@@ -241,9 +251,13 @@ export default {
 </script>
 
 <style scoped>
-.title-price h2 {
-  font-weight: 700;
-  font-size: 26px;
+.recommended-price {
+  border: none;
+  box-shadow: 0px 0px 8px 8px rgba(180, 178, 178, 0.1);
+}
+.title-price h2 span.price {
+  font-weight: 600;
+  font-size: 24px;
   line-height: 34px;
   text-align: center;
   letter-spacing: -0.55px;
