@@ -37,7 +37,9 @@
         </span>
       </p>
     </div>
-    <div class="down h-height20 md:h-height30 xl:h-height70"></div>
+    <div
+      class="down h-height20 md:h-height30 xl:h-height70 2xl:h-height50"
+    ></div>
   </div>
 </template>
 

@@ -21,10 +21,12 @@
         class="video-call flex items-end justify-center w-full custom-breakpoint:h-height60 lg:h-height60 xl:h-height70 h-height30 md:h-height40"
       >
         <!-- video call icons -->
-        <div class="icons flex gap-2 lg:gap-4 mb-8 md:mb-12 lg:mb-16 xl:mb-12">
+        <div
+          class="icons flex gap-2 lg:gap-4 2xl:gap-6 mb-8 md:mb-12 lg:mb-16 xl:mb-12 2xl:mb-24"
+        >
           <span class="vid-call">
             <svg
-              class="lg:h-12 md:h-8 md:w-8 h-4 w-4 lg:w-12"
+              class="lg:h-12 md:h-8 md:w-8 h-4 w-4 lg:w-12 2xl:h-16 2xl:w-16"
               viewBox="0 0 50 50"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +41,7 @@
 
           <span class="mic">
             <svg
-              class="lg:h-12 md:h-8 md:w-8 h-4 w-4 lg:w-12"
+              class="lg:h-12 md:h-8 md:w-8 h-4 w-4 lg:w-12 2xl:h-16 2xl:w-16"
               viewBox="0 0 50 50"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +60,7 @@
 
           <span class="option">
             <svg
-              class="lg:h-12 md:h-8 md:w-8 h-4 w-4 lg:w-12"
+              class="lg:h-12 md:h-8 md:w-8 h-4 w-4 lg:w-12 2xl:h-16 2xl:w-16"
               viewBox="0 0 50 50"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +83,7 @@
 
           <span class="end-call">
             <svg
-              class="lg:h-12 md:h-8 md:w-8 h-4 w-4 lg:w-12"
+              class="lg:h-12 md:h-8 md:w-8 h-4 w-4 lg:w-12 2xl:h-16 2xl:w-16"
               viewBox="0 0 50 50"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -148,6 +150,14 @@ export default {
   box-shadow: 4px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (min-height: 901px) {
+  .chat-two {
+    bottom: 10rem;
+  }
+  .chat-one {
+    top: 10rem;
+  }
+}
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .dots {
     width: 100%;
