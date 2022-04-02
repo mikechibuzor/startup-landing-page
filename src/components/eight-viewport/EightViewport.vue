@@ -17,7 +17,7 @@
     </div>
     <div class="down">
       <div
-        class="team-image h-height20 md:h-height30 lg:h-height60 xl:h-height90 custom-breakpoint:h-height60 w-11/12 mx-auto"
+        class="team-image h-height20 md:h-height30 lg:h-height90 custom-breakpoint:h-height60 w-11/12 mx-auto"
       ></div>
       <div
         class="do grid gap-y-8 md:grid-cols-2 bg-primary-blue p-12 rounded-md"

@@ -10,7 +10,7 @@
     </div>
     <div class="down mt-20">
       <div
-        class="courses pb-16 font-dm-sans lg:h-height60 xl:h-height80 custom-breakpoint:h-height60"
+        class="courses pb-16 font-dm-sans lg:h-height80 custom-breakpoint:h-height60"
       >
         <div class="course-1 z-20 relative h-full">
           <div class="image relative z-30"></div>
@@ -189,7 +189,7 @@ img {
   height: 30%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .courses {
     display: grid;
     grid-auto-rows: auto;
